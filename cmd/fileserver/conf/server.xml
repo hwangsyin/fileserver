@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <property>
+    <name>port</name>
+    <value>80</value>
+    <description>端口</description>
+  </property>
+  <property>
+    <name>d1</name>
+    <value>E:/d1</value>
+    <description>目录1</description>
+  </property>
+  <property>
+    <name>d2</name>
+    <value>E:/d2</value>
+    <description>目录2</description>
+  </property>
+</configuration>
