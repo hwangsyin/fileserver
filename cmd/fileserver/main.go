@@ -1,9 +1,15 @@
 package main
 
 import (
-	"fmt"
+	"log"
+	"net/http"
+	"handler"
 )
 
 func main() {
-	fmt.Println("file server")
+	http.HandleFunc("/files", handler.HandleFile)
+	err := http.ListenAndServe(":8080", nil)
+	if err != nil {
+		log.Fatal(err)
+	}
 }

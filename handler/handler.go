@@ -4,6 +4,6 @@ import (
 	"net/http"
 )
 
-func Upload(w http.ResponseWriter, r *http.Request) {
+func HandleFile(w http.ResponseWriter, r *http.Request) {
 
 }
